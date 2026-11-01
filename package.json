@@ -52,7 +52,7 @@
     "node": ">=22.13"
   },
   "overrides": {
-    "dompurify": "^3.4.16",
+    "dompurify": "^3.4.17",
     "esbuild": "^0.25.0"
   }
 }
