@@ -781,7 +781,7 @@ export function App(props) {
       var v = VIEWS.find(function (x) {
         return x[0] === route;
       });
-      document.title = (v ? v[1] + " · " : "") + "VAPTLens";
+      document.title = (v ? v[1] + " · " : "") + "VAPTLens Agent";
       if (firstRoute.current) {
         firstRoute.current = false;
         return;
@@ -2286,8 +2286,8 @@ export function App(props) {
               size="sm"
               icon="sparkles"
               className="st-ai"
-              aria-label="Ask Claude"
-              title="Ask Claude"
+              aria-label="Ask VAPTLens Agent AI"
+              title="Ask VAPTLens Agent AI"
               onClick={function () {
                 setAssistant({});
               }}

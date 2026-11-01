@@ -58,7 +58,7 @@ export function Landing() {
           className="lx-brand"
           href="#cover"
           data-go="0"
-          aria-label="VAPTLens, back to top"
+          aria-label="VAPTLens Agent, back to top"
         >
           <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <circle cx="12" cy="12" r="9" stroke="#f2ede4" strokeWidth="1.6" />
@@ -76,7 +76,7 @@ export function Landing() {
               strokeLinecap="round"
             />
           </svg>
-          VAPTLENS
+          VAPTLENS <span style={{ color: "var(--amber)", fontSize: "0.85em", marginLeft: "4px" }}>AGENT</span>
         </a>
         <div className="lx-top-r">
           <div className="lx-plate" aria-live="polite">
@@ -102,7 +102,7 @@ export function Landing() {
         <section
           className="lx-spec"
           id="spec"
-          aria-label="VAPTLens, in six plates"
+          aria-label="VAPTLens Agent, in six plates"
         >
           <div className="lx-stage" id="stage">
             <div className="lx-glow" id="glow" aria-hidden="true"></div>
@@ -118,7 +118,7 @@ export function Landing() {
             <div className="lx-rule b" aria-hidden="true"></div>
             <div className="lx-bar" id="bar" aria-hidden="true"></div>
             <div className="lx-foot-meta" aria-hidden="true">
-              <span>Type specimen · VAPT analytics workbench</span>
+              <span>VAPTLens Agent · Privacy-Preserving Vulnerability Analytics Platform with Multi-Agent AI Triage</span>
               <span id="footCoord">Plate 1.00</span>
             </div>
 
@@ -145,7 +145,7 @@ export function Landing() {
                 <h1
                   className="lx-word"
                   id="word"
-                  aria-label="VAPTLens"
+                  aria-label="VAPTLens Agent"
                   data-fx="clip"
                   data-d=".05"
                 >
@@ -166,9 +166,7 @@ export function Landing() {
                 </h1>
                 <div className="lx-cover-row" data-fx="rise" data-d=".25">
                   <p className="lx-p">
-                    Drop in a scanner export. Get findings in the order
-                    attackers would use them, an SLA clock on each, and a record
-                    an auditor can check.
+                    Privacy-Preserving Vulnerability Analytics Platform with Multi-Agent AI Triage and Automated Approval Workflows. Ingest scanner exports, redact network topology in the browser, and autonomously reason about real exposure.
                   </p>
                   <div className="lx-cta">
                     <button className="lx-btn pri" type="button" data-go="5">
@@ -408,8 +406,7 @@ export function Landing() {
         </section>
         <footer className="lx-after">
           <span>
-            <b>VAPTLens</b> — VAPT analytics workbench. Runs where your data
-            already lives.
+            <b>VAPTLens Agent</b> — Privacy-Preserving Vulnerability Analytics Platform with Multi-Agent AI Triage.
           </span>
           <span>
             Every number on this page comes from the bundled sample export.

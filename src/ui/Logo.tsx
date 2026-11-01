@@ -12,7 +12,7 @@ export function Logo(props) {
       fill="none"
       aria-hidden={props.wordmark === false ? undefined : "true"}
       role={props.wordmark === false ? "img" : undefined}
-      aria-label={props.wordmark === false ? "VAPTLens" : undefined}
+      aria-label={props.wordmark === false ? "VAPTLens Agent" : undefined}
     >
       <circle
         cx={16}
@@ -41,6 +41,24 @@ export function Logo(props) {
       {mark}
       <span className="vl-logo-word">
         VAPT<span className="vl-logo-lens">Lens</span>
+        <span
+          style={{
+            marginLeft: "0.35em",
+            fontSize: "0.65em",
+            fontWeight: 500,
+            letterSpacing: "0.06em",
+            textTransform: "uppercase",
+            opacity: 0.85,
+            padding: "0.15em 0.4em",
+            borderRadius: "4px",
+            border: "1px solid currentColor",
+            verticalAlign: "middle",
+            lineHeight: 1,
+            display: "inline-block",
+          }}
+        >
+          Agent
+        </span>
       </span>
     </span>
   );
