@@ -1,9 +1,9 @@
 {
-  "name": "vaptlens",
+  "name": "vaptlens-agent",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Self-hosted VAPT analytics workbench",
+  "description": "Privacy-preserving vulnerability analytics platform with multi-agent AI triage and automated approval workflows",
   "types": "design/components/index.d.ts",
   "scripts": {
     "dev": "vite",
